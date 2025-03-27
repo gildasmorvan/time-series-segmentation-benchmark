@@ -11,7 +11,7 @@ setup(name='tssb',
       packages=find_packages(exclude=['tests', 'examples']),
       package_data={'': ['LICENSE']},
       include_package_data=True,
-      install_requires=[aeon, daproli, matplotlib, numpy, orange3, pandas, scikit-learn, seaborn, scipy, tqdm, setuptools]
+      install_requires=['aeon', 'daproli', 'matplotlib', 'numpy', 'orange3', 'pandas', 'scikit-learn', 'seaborn', 'scipy', 'tqdm', 'setuptools']
       long_description=open('README.md').read(),
       long_description_content_type="text/markdown",
       zip_safe=False)
